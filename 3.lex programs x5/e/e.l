@@ -7,6 +7,10 @@ int con=0;
 [aeiouAEIOU]+ {vow++;}
 [^aeiouAEIOU] {con++;}
 %%
+
+int yywrap()
+{}
+
 int main()
 {
 yyin=fopen("a.txt","r");
