@@ -12,6 +12,10 @@ int c1=0, c2=0, lc=0, sc=0, tc=0, ch=0, sletters=0, cletters=0;
 \t {tc++;}
 . {ch++;}
 %%
+
+int yywrap()
+{}
+
 int main()
 {
 yyin=fopen("a.txt","r");
