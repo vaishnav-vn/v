@@ -11,6 +11,8 @@
 [0/1]*00 {printf("is a invalid string");}
 %%
 
+int yywrap()
+{}
 int main()
 {
 yylex();
