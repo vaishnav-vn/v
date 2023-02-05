@@ -1,0 +1,5 @@
+save .l
+open new cmd run, lex program.l
+new file will be created lex.yy.c
+now run this c file using, cc lex.yy.c
+./a.out
