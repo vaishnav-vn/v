@@ -6,6 +6,10 @@
 
 [-]?[0-9]+ {printf("is a negative number");}
 %%
+
+int yywrap()
+{}
+
 int main()
 {
 yylex();
